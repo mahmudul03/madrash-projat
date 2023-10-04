@@ -1,0 +1,44 @@
+#service {
+    width: 100%;
+    position: relative;
+    margin: 40px 0;
+   
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .col {
+            flex-basis: 300px;
+
+            .single-service{
+                border:  1.5px solid#ccc;
+                text-align: center;
+                padding: 30px;
+                border-radius: 10px;
+
+                h2 {
+                    color: #111;
+                    font-size: 24px;
+                }
+                P{
+                     margin: 10px 0;
+                     color: #576574;
+                }
+                button{
+                      margin-top: 5px;
+                      padding: 10px 15px;
+                      font-size: 17px;
+                      cursor: pointer;
+                      background: #111;
+                      color: #fff;
+                      border: 0;
+                      outline: 0;
+                      border-radius: 30px;
+                }  
+               
+            }
+        }
+    }
+} 
